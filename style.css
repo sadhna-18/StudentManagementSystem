@@ -60,6 +60,32 @@ table {
   margin-top: 10px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #bbdefb;
+  text-align: left;
+}
+
+th {
+  color: #0d47a1;
+  background: #e3f2fd;
+}
+
+tr:hover {
+  background-color: #f1f8ff;
+}
+
+.form-section input:focus {
+  border-color: #1565c0;
+  box-shadow: 0 0 4px rgba(21, 101, 192, 0.4);
+}
+
 th, td {
   padding: 8px;
   border-bottom: 1px solid #bbdefb;
